@@ -9,7 +9,7 @@
 
 :root{
     --body-color:#efefef;
-    --nav-color: #1876f2;
+    --nav-color: #7720D1;
     --bg-color:#fff;
 }
 
@@ -37,21 +37,27 @@ nav{
 }
 
 .logo {
-    width: 160px;
-    margin-right:45px;
+    width: 50px;
+    margin-right:4rem;
 }
 
-.nav-left, .nav-right{
+.nav-left, .nav-right, .nav-center{
     display: flex;
     align-items: center;
 }
 
-.nav-left ul li {
+.nav-left p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-right ul li {
     list-style: none;
     display: inline-block ;
 }
 
-.nav-left ul li img {
+.nav-right ul li img {
     width: 28px;
     margin: 0 15px;
 }
@@ -67,7 +73,7 @@ nav{
 
 .search-box{
     background: #efefef;
-    width: 350px;
+    width: 30vw;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -143,13 +149,14 @@ nav{
     width: fit-content;
 }
 
-.imp-links a img{
-    width: 25px;;
-    margin: 15px;
+.imp-links a .fa-solid, .fas {
+    margin: 15px ;
+    color: #b624de;
+    width: 25px;
 }
 
 .imp-links a:last-child{
-    color:#1876f2;
+    color:#c22bec94;
 }
 
 .imp-links {
@@ -211,7 +218,7 @@ nav{
 .event a{
     font-size: 12px;
     text-decoration: none;
-    color: #1876f2;
+    color: #c22bec94;
 }
 
 .left-event span{
@@ -219,10 +226,14 @@ nav{
     bottom:0 ;
     right: 0;
     width: 100%;
-    background-color: #1876f2;
+    background-color: #b624de;
     color: #fff;
     font-size: 10px;
     padding: 4px 0;
+}
+
+.right-event p .fa-solid{
+    margin-right: 8px !important;
 }
 
 .sidebar-ads{
@@ -276,7 +287,7 @@ nav{
     border-radius: 50%;
     top:10px;
     left:10px;
-    border: 5px solid #1876f2;
+    border: 5px solid #b624de;
 }
 
 .story p{
