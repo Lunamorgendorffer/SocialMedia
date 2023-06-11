@@ -6,5 +6,6 @@ function settingsMenuToggle(){
 }
 
 darkBtn.onclick=function(){
-    darkBtn.classList.toggle('dark-btn-on')
+    darkBtn.classList.toggle('dark-btn-on');
+    document.body.classList.toggle('dark-theme');
 }
