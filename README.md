@@ -1,6 +1,6 @@
 # SocialMedia
-Bienvenue sur mon projet Social Media! Ce site web vous present la fil d'actualité d'un utilisateur qui  peut consulter sa fil d'actualité contenant les publications de leurs amis et les publications publiques des autres utilisateurs.<br> 
-Cette page web est développée en utilisant HTML, CSS et JavaScript.
+Bienvenue sur mon projet Social Media ! Ce site web vous présente le fil d'actualité d'un utilisateur, affichant les publications de ses amis, les événements à venir ainsi que les utilisateurs connectés.<br>
+Ce site web est développé en utilisant HTML, CSS et JavaScript.
 
 ## Caractéristiques
 
